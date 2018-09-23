@@ -153,7 +153,9 @@
     <ClInclude Include="Enemies.h" />
     <ClInclude Include="Factory.h" />
     <ClInclude Include="HandleCivilian.h" />
+    <ClInclude Include="Image.h" />
     <ClInclude Include="Mysterious_Wizard.h" />
+    <ClInclude Include="RealImage.h" />
     <ClInclude Include="SimpleFactory.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Shopkeeper.h" />
