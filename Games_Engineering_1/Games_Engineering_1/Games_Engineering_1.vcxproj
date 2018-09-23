@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <EnableCppCoreCheck>true</EnableCppCoreCheck>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -148,9 +149,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />
+    <ClInclude Include="Civilian.h" />
     <ClInclude Include="Enemies.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="HandleCivilian.h" />
+    <ClInclude Include="Image.h" />
     <ClInclude Include="Mysterious_Wizard.h" />
+    <ClInclude Include="RealImage.h" />
     <ClInclude Include="SimpleFactory.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Shopkeeper.h" />

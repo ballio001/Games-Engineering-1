@@ -48,6 +48,18 @@
     <ClInclude Include="SimpleFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Civilian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleCivilian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RealImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
