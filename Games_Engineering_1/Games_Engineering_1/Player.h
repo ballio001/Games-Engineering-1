@@ -4,9 +4,9 @@
 
 using namespace std;
 
-class Shopkeeper : public Character {
+class Player : public Character {
 public:
 	void draw() {
-		cout << "Shopkeeper " << id_ << ": draw" << endl;
+		cout << "Player " << id_ << ": draw" << endl;
 	}
 };
