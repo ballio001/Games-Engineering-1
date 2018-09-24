@@ -7,6 +7,6 @@ class Civilian{
 public:
 	Civilian() { }
 	void Draw() {
-		cout << "Printing Civilian" << endl;
+		cout << "Spawning Civilians" << endl;
 	}
 };
